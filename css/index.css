@@ -1,6 +1,25 @@
 body {
 	/* font-family: 'Open Sans', sans-serif; */
 }
+.welcome {
+	height: 100vh;
+	max-height: 840px;
+}
+.welcome .container {
+	height: 100%;
+}
+.welcome .container .flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.welcome .container h1,
+.welcome .container img {
+	z-index: -1;
+	position: relative;
+	text-align: center;
+}
 .logos {
 	display: flex;
 	justify-content: space-between;
@@ -37,6 +56,39 @@ body {
 	display: block;
 	text-align: center;
 }
+/* circles */
+.circles {
+	margin-bottom: 90px;
+}
+.circles img {
+	width: 100%;
+}
+.circles .wrap {
+	position: relative;
+	margin-top: 30px;
+}
+.circles .design {
+	position: absolute;
+	top: -40px;
+	left: 430px;
+	color: #1E88E5;
+	font-size: 28px;
+}
+.circles .technology {
+	position: absolute;
+	top: 910px;
+	left: 0;
+	color: #1E88E5;
+	font-size: 28px;
+}
+.circles .materials {
+	position: absolute;
+	top: 910px;
+	right: 0;
+	color: #1E88E5;
+	font-size: 28px;
+}
+/* request */
 .request {
 	margin: 90px 0;
 }
