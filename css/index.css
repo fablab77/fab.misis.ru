@@ -16,7 +16,7 @@ body {
 	fill: white;
 }
 .cards .card .card-title {
-	text-align: center;
 	width: 100%;
 	display: block;
+	text-align: center;
 }
