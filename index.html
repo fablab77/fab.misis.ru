@@ -10,14 +10,17 @@
 	<meta name="viewport" content="width=device-width">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="mobile-web-app-capable" content="yes">
+	<meta id="MetaDescription" name="DESCRIPTION" content="НИТУ &quot;МИСиС&quot; - Национальный исследовательский технологический университет">
+	<meta id="MetaKeywords" name="KEYWORDS" content="НИТУ &quot;МИСиС&quot; - Национальный исследовательский технологический университет">
+	<meta id="MetaCopyright" name="COPYRIGHT" content="© МИСиС, 2015"><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 	<link type="text/css" rel="stylesheet" href="js/vendor/materialize/css/materialize.min.css">
-	<link rel="stylesheet" href="js/vendor/socials/social-likes_birman.css">
+	<link rel="stylesheet" href="js/vendor/socials/social-likes_flat.css">
 	<link type="text/css" rel="stylesheet" href="css/index.css">
 </head>
 <body>
 	<div class="navbar-fixed">
-		<nav>
+		<nav class="grey darken-3">
 			<div class="nav-wrapper container">
 				<ul id="nav-mobile" class="left hide-on-med-and-down">
 					<li><a href="#mission">МИССИЯ</a></li>
@@ -26,16 +29,17 @@
 					<li><a href="#career">КАРЬЕРА</a></li>
 					<li><a href="#partners">ПАРТНЕРЫ</a></li>
 					<li><a href="#contacts">КОНТАКТЫ</a></li>
+					<li><a href="#contacts">ОСТАВИТЬ ЗАЯВКУ</a></li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-	<div class="container" id="mission">
-		<h1>
-			Увлекательная учеба.<br>
-			Успешная карьера.
-		</h1>
-	</div>
+<!-- 	<div class="container" id="mission">
+	<h1>
+		Увлекательная учеба.<br>
+		Успешная карьера.
+	</h1>
+</div> -->
 	<div class="parallax-container">
 		<div class="parallax"><img src="img/parallax/1.jpg"></div>
 	</div>
@@ -92,21 +96,21 @@
 		<h3>Карьера</h3>
 		<p>Выпускники программы — креативные технические специалисты, готовые к технологическим вызовам стремительно меняющегося мира. Они способны интегрировать компетенции из различных областей и применять их для создания и вывода на рынок новых высокотехнологичных продуктов. Это ценнейший человеческий капитал малых технологичных стартапов и крупных корпораций модернизируемой России.</p>
 		<div class="cards">
-			<div class="card red accent-2">
+			<div class="card blue darken-1">
 				<div class="card-content white-text">
 					<div data-svg="img/icons/aim5.svg"></div>
 					<span class="card-title">Успех</span>
 					<p>Вы научитесь формулировать цели и находить кратчайшие пути к их достижению.</p>
 				</div>
 			</div>
-			<div class="card red accent-2">
+			<div class="card blue darken-1">
 				<div class="card-content white-text">
 					<div data-svg="img/icons/ascendant6.svg"></div>
 					<span class="card-title">Карьера</span>
 					<p>Вместе с дипломом престижного университета вы приобретете актуальные навыки и связи с промышленностью и венчурным капиталлом.</p>
 				</div>
 			</div>
-			<div class="card red accent-2">
+			<div class="card blue darken-1">
 				<div class="card-content white-text">
 					<div data-svg="img/icons/books8.svg"></div>
 					<span class="card-title">Мировозрение</span>
@@ -115,24 +119,46 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="container" id="partners">
+		<h3>Партнеры</h3>
+		<div class="logos">
+			<div class="logo"><img src="img/logos/fablab77_ru.png" alt=""></div>
+			<div class="logo"><img src="img/logos/misis.png" alt=""></div>
+		</div>
+	</div>
 	<div class="parallax-container">
 		<div class="parallax"><img src="img/parallax/5.jpg"></div>
 	</div>
-	<footer class="page-footer" id="contacts">
+	<div class="container" id="request">
+		<div class="request">
+			<h3>Оставить заявку</h3>
+			<form class="request-form">
+				<div class="input-field">
+					<i class="mdi-communication-email prefix blue-text text-darken-1"></i>
+					<input placeholder="Оставьте адрес почты" id="email" type="email" class="validate">
+					<label for="email">Email</label>
+				</div>
+				<button class="blue darken-1 waves-effect waves-light btn" type="submit"><i class="mdi-content-send left"></i>Записаться</button>
+			</form>
+			<p>Мы свяжемся и пригласим пообщаться.</p>
+		</div>
+	</div>
+	<footer class="page-footer grey darken-2" id="contacts">
 		<div class="container">
 			<div class="row">
 				<div class="col s10">
 					<h5 class="white-text">Контакты</h5>
 					<p class="grey-text text-lighten-4">
 						По вопросам поступления обращайтесь к координатору программы<br>
-						<a class="blue-text text-accent-3" href="maito:sychev@misis.ru">Сычеву Сергею Олеговичу</a>
+						<a class="white-text" href="maito:sychev@misis.ru">Сычеву Сергею Олеговичу</a>
 					</p>
-					<p class="grey-text text-lighten-4">Руководитель программы <a class="blue-text text-accent-3" href="mailto:kuznetsovve@misis.ru">Кузнецов Владимир Евгеньевич</a></p>
-					<p class="grey-text text-lighten-4">Заведующий выпускающей кафедрой <a class="blue-text text-accent-3" href="mailto:solonin@misis.ru">Солонин Алексей Николаевич</a></p>
-					<p class="grey-text text-lighten-4"><a class="blue-text text-accent-3" href="http://misis.ru/applicants/postuplenie-v-nitu-misis">Приемная комиссия НИТУ “МИСиС”</a></p>
+					<p class="grey-text text-lighten-4">Руководитель программы <a class="white-text" href="mailto:kuznetsovve@misis.ru">Кузнецов Владимир Евгеньевич</a></p>
+					<p class="grey-text text-lighten-4">Заведующий выпускающей кафедрой <a class="white-text" href="mailto:solonin@misis.ru">Солонин Алексей Николаевич</a></p>
+					<p class="grey-text text-lighten-4"><a class="white-text" href="http://misis.ru/applicants/postuplenie-v-nitu-misis">Приемная комиссия НИТУ “МИСиС”</a></p>
 				</div>
 				<div class="col s2">
-					<div class="social-likes social-likes_vertical social-likes_light">
+					<div class="social-likes social-likes_vertical">
 						<div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
 						<div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
 						<div class="mailru" title="Поделиться ссылкой в Моём мире">Мой мир</div>
@@ -144,15 +170,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-copyright">
+		<div class="footer-copyright grey darken-3">
 			<div class="container">
 				© 2015 <a class="grey-text text-lighten-4" href="http://fablab77.ru">Фаблаб МИСиС</a>
 				<a class="grey-text text-lighten-4 right" href="http://misis.ru/applicants/postuplenie-v-nitu-misis">Приемная комиссия НИТУ “МИСиС”</a>
 			</div>
 		</div>
 	</footer>
-	<div class="container">
-	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/vendor/materialize/js/materialize.min.js"></script>
 	<script src="js/vendor/socials/social-likes.min.js"></script>

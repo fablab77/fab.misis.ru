@@ -1,6 +1,23 @@
 body {
 	/* font-family: 'Open Sans', sans-serif; */
 }
+.logos {
+	display: flex;
+	justify-content: space-between;
+	margin-left: -30px;
+	margin-bottom: 70px;
+}
+.logos .logo {
+	margin-left: 30px;
+	flex: 1 1 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.logos .logo img {
+	margin: 0 auto;
+	max-height: 160px;
+}
 .cards {
 	display: flex;
 	justify-content: space-between;
@@ -19,4 +36,18 @@ body {
 	width: 100%;
 	display: block;
 	text-align: center;
+}
+.request {
+	margin: 90px 0;
+}
+.request-form {
+	display:  flex;
+	align-items: baseline;
+}
+.request-form .input-field {
+	flex: 1 0 auto;
+	margin-right: 30px;
+}
+.page-footer a {
+	text-decoration: underline;
 }
