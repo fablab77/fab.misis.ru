@@ -16,24 +16,25 @@ body {
 }
 .welcome .container h1,
 .welcome .container img {
-	z-index: -1;
 	position: relative;
 	text-align: center;
 }
-.logos {
+.welcome .logos {
+	background: rgba(255,255,255,0.8);
+	padding: 50px;
+}
+.welcome .logos {
 	display: flex;
 	justify-content: space-between;
-	margin-left: -30px;
 	margin-bottom: 70px;
 }
-.logos .logo {
-	margin-left: 30px;
+.welcome .logos .logo {
 	flex: 1 1 100%;
 	text-align: center;
 	display: flex;
 	align-items: center;
 }
-.logos .logo img {
+.welcome .logos .logo img {
 	margin: 0 auto;
 	max-height: 160px;
 }
