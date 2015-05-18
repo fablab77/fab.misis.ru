@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.parallax').parallax();
 	$('.scrollspy').scrollSpy();
-
+	$('.button-collapse').sideNav();
 	var googleForm = $(window).jqGoogleForms({"formKey": "1-TcT0uIi8RlMqInjvKXKCcCwejKcI6bHBHskjqnP2XU"});
 	$('.request-form').submit(function(e) {
 		e.preventDefault();

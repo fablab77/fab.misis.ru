@@ -4,9 +4,9 @@ $(document).ready(function(){
 	// https://github.com/gabceb/jquery-browser-plugin
 	var htmlWidth = $('html').width();
 	var htmlHeight = $('html').height();
-	var virtualViewportWidthPhone = 640;
+	var virtualViewportWidthPhone = 600;
 	var virtualViewportWidthDesktop = 1280;
-	var virtualViewportWidthMax = 1400;
+	var virtualViewportWidthMax = 1280;
 	// for desktops: virtual viewport
 	if ($.browser.desktop) {
 		if (!$.browser.mozilla) {
