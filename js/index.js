@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	// materializecss
 	$('.parallax').parallax();
 	$('.scrollspy').scrollSpy();
 	$('.button-collapse').sideNav();
@@ -14,6 +15,7 @@ $(document).ready(function(){
 	});
 	wow.init();
 
+	// form
 	var googleForm = $(window).jqGoogleForms({"formKey": "1-TcT0uIi8RlMqInjvKXKCcCwejKcI6bHBHskjqnP2XU"});
 	$('.request-form').submit(function(e) {
 		e.preventDefault();

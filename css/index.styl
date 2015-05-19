@@ -18,6 +18,12 @@
 		display: flex
 		justify-content: space-between
 		margin-bottom: 70px
+		@media (min-width: 601px)
+			background: rgba(255,255,255,0.5)
+			position: absolute
+			right: 36px
+			top: 100px
+			flex-direction: column
 		.logo
 			flex: 1 1 100%
 			text-align: center
@@ -26,6 +32,8 @@
 			img
 				margin: 0 auto
 				max-height: 160px
+				@media (min-width: 601px)
+					max-height: 100px
 		.divider
 			flex: 0 0 30px
 
@@ -86,6 +94,8 @@
 		margin-right: 30px
 
 // fix
+.divider
+	background: none
 .navbar-fixed
 	@media (min-width: 641px)
 		position: fixed
