@@ -2,10 +2,18 @@ $(document).ready(function(){
 	$('.parallax').parallax();
 	$('.scrollspy').scrollSpy();
 	$('.button-collapse').sideNav();
-	// var options = [
-	// 	{selector: '.wow', offset: 200, callback: '$(this).addClass("animated")' },
-	// ];
-	// Materialize.scrollFire(options);
+
+	// animation
+	var wow = new WOW({
+		boxClass: 'wow',
+		animateClass: 'animated',
+		offset: 0,
+		mobile: false,
+		live: true,
+		callback: function(box) {}
+	});
+	wow.init();
+
 	var googleForm = $(window).jqGoogleForms({"formKey": "1-TcT0uIi8RlMqInjvKXKCcCwejKcI6bHBHskjqnP2XU"});
 	$('.request-form').submit(function(e) {
 		e.preventDefault();
